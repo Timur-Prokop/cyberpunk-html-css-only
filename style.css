@@ -1,0 +1,481 @@
+body{
+    margin: 0;
+}
+.header{
+    background-image: url("img/11.png");
+    -webkit-background-size: 100%;
+    width: 100%;
+    height: 810px;
+}
+
+
+.mini-logo{
+    display: flex;
+}
+.mini-logo img{
+    margin-right: 40px;
+    margin-top: 20px;
+    height: 25px;
+    width: 25px;
+}
+header{
+    display: flex;
+}
+.logo{
+    display: flex;
+    margin-left: 18%;
+    margin-right: 30%;
+    width: 250px;
+}
+.yellowthing{
+    width: 500px;
+    height: 290px;
+    background-color: #F8F200;
+    margin-top: 458px;
+    margin-left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(40px 0,100% 0,100% calc(100% - 40px), calc(100% - 40px) 100%,0 100%,0 40px);
+}
+.yellowthing h1{
+    color: black;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.yellowthing button{
+    background-color: #000000;
+    color:#F8F200;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    transition: 0.4s ease-in-out;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.yellowthing button:hover{
+    width: 205px;
+    height: 65px;
+    color: #fffb24;
+    font-size: 21px;
+    margin-top: -4px;
+}
+.midel{
+    width: 400px;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+::-webkit-scrollbar-track{
+    background-color: #000000;
+}
+::-webkit-scrollbar-thumb {
+    background: #ffffff; 
+}
+.about h1{
+    color: black;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.about p {
+    color: grey;
+    width: 800px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.about{
+    margin-left: 15%;
+}
+.img12{
+    display: block;
+    width: 450px;
+}
+.img12 img{
+    width: 420px;
+    height: 190px;
+    margin-top: 30px;
+    margin-right: 0px;
+    transition: 0.4s ease-in-out;
+}
+.img12 img:hover{
+    width: 425px;
+    height: 195px;
+    margin-bottom: -5px;
+}
+.img3 img{
+    width: 680px;
+    height: 400px;
+    margin-top: 30px;
+    transition: 0.5s ease-in-out;
+}
+.img3 img:hover{
+    width: 685px;
+    height: 405px;
+}
+.images{
+    display: flex;
+}
+
+
+
+.blackline{
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.about p{
+    color: #000000;
+    width: 80%;
+}
+
+.playstation{
+    background-image: url("img/blackground.png");
+    margin-top: -5px;
+}
+.text-playstation{
+    display: flex;
+    margin-left: 16%;
+}
+.text-playstation h1{
+    color: white;
+    font-size: 40px;
+    margin-left: 30px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text-playstation img{
+    width: 120px;
+    height: 120px;
+}
+.smallp{
+    margin-left: 16%;
+    width: 80%;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.other-playstation{
+    display: flex;
+    margin-left: 16%;
+}
+.text-div{
+    display: block;
+    width: 350px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+.other-playstation input{
+    width: 350px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 15px;
+    border: 0px;
+    border-bottom: 1px grey solid;
+    background-color: black;
+    margin-bottom: 20px;
+}
+.other-playstation img{
+    width: 340px;
+    height: 400px;
+    margin-left: 0px;
+    margin-right: -80px;
+    transition: 0.4s ease-in-out;
+}
+.img-div{
+    display: flex;
+}
+.scrin{
+   width: 350px; 
+   height: 100px;
+   border: 2px white dashed;
+   color: #b3b3b3;
+}
+.scrin a{
+    color: #909090;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.scrin p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.line-yellow{
+    width: 100%;
+}
+.yellow-part{
+    background-image: url("img/yellow-background.png");
+    margin-top: -10px;
+    display: flex;
+}
+.yellow-right div{
+    display: flex;
+    height: 40px;
+}
+
+.yellow-right button{
+    width: 150px;
+    height: 50px;
+    background-color: #000000;
+    color: #F8F200;
+    border: 1px #F8F200 solid;
+    font-size: 16px;
+    transition: 0.4s ease-in-out;
+    margin-top:20px;
+}
+.yellow-left{
+    margin-left: 15%;
+}
+.yellow-right{
+    width: 80%;
+}
+.yellow-right img{
+    width: 23px;
+    height: 23px;
+    margin-top: 12px;
+    margin-right: 5px;
+}
+
+.yellow-right button:hover{
+    width: 155px;
+    height: 55px;
+    color: #fffb24;
+    font-size: 17px;
+}
+.monitor{
+    width: 500px;
+    height: 360px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.yellow-p{
+    width: 520px;
+    line-height: 30px;
+    font-size: 17px;
+    margin-bottom: 0px;
+}
+.yellow-right h1{
+    font-size: 40px;
+    width: 80%;
+}
+
+
+.mini-logo a {
+    display: inline-block;
+    color: 
+#ff9900;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+}
+.mini-logo a:after {
+    background-color: 
+#ff9900;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.mini-logo a:hover:after,
+.mini-logo a:focus:after {
+    width: 40%;
+}
+
+
+
+.hpimg{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 50px;
+}
+.krestimg{
+    width: 80px;
+    margin-left: 20px;
+    margin-bottom: 70px;
+    margin-right: 20px;
+}
+.cyberimg{
+    width: 250px;
+    height: 60px;
+    margin-bottom: 50px;
+}
+.left-buy{
+    width: 55%;
+    height: 600px;
+    background-image: url("img/cybergame4.jpg");
+}
+.right-buy{
+    margin-left: 30px;
+}
+.right-buy img{
+    width: 28px;
+    height: 28px;
+}
+.buy{
+    display: flex;
+    background-color: black;
+}
+.right-buy h1{
+    color: white;
+    font-size: 40px;
+    width: 400px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.right-buy h3{
+    color: #52BEDC;
+    font-size: 25px;
+}
+.futlar{
+    height: 50px;
+    color: white;
+    display: flex;
+}
+.futlar p{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.right-buy h2{
+    color: #52BEDC;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.gamesplatform{
+    display:flex;
+}
+
+
+.block{
+    width: 200px;
+}
+.block2{
+    width: 200px;
+}
+.block img{
+    display: block;
+    width: 70px;
+    height: 50px;
+    margin-top: 20px;
+}
+.block2 img{
+    display: block;
+    width: 160px;
+    height: 50px;
+    margin-top: 20px;
+}
+.block2 .xbox{
+    width: 180px;
+    margin-top: 5px;
+}
+.block .frame{
+    margin-top: 5px;
+}
+footer{
+    display: flex;
+    height: 30px;
+}
+.logo-footer{
+    margin-left: 15%;
+    margin-right: 40px;
+    margin-top: 5px;
+}
+.lic{
+    margin-left: 30%;
+    margin-right: 30px;
+}
+.last{
+    background-color: black;
+    height: 20px;
+}
+.bird{
+    margin-top: 8px;
+}
+.last p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: 200;
+    font-size: 13px;
+    align-items: center;
+}
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 1024px){
+    .logo{
+        margin-left: 8%;
+        margin-right: 20%;
+    }
+    .header{
+        background-image: url("img/1-bacground-1024.png");
+        -webkit-background-size: 100%;
+        width: 100%;
+        height: 810px;
+    }
+    .yellowthing{
+        margin-left: 3%;
+    }
+    .img12 img{
+        width: 350px;
+        height: 170px;
+        margin-right: 20px;
+        margin-left: 0px;
+    }
+    .img12{
+        display: flex;
+    }
+    .images{
+        display: block;
+    }
+    .img12 img:hover{
+        width: 375px;
+        height: 190px;
+        margin-bottom: -5px;
+    }
+    .img3 img{
+        width: 730px;
+        height: 430px;
+    
+    }
+    .img3 img:hover{
+        width: 755px;
+        height: 445px;
+        margin-left: -15px;
+    }
+    .img-div{
+        display: block;
+        margin-top: -45%;
+    }
+    .smallp{
+        margin-left: 10%;
+        width: 50%;
+    }
+    .text-playstation{
+        display: block;
+        margin-left: 10%;
+    }
+    .text-playstation h1{
+        color: white;
+        margin-left: 0px;
+    }
+    .other-playstation{
+        display: flex;
+        margin-left: 10%;
+    }
+    .about{
+        margin-left: 10%;
+    }
+}
